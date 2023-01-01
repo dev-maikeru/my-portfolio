@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.custom-font {
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Cinzel Decorative', cursive; */
+}
+.links {
+    font-family: 'Montserrat', sans-serif;
+}
+.shape-outer {
+    position: relative;
+    display: flex;
+    flex-shrink: 0;
+    height: calc(250px + 4vw);
+    width: calc(250px + 4vw);
+    margin: 25px;
+    /* background-image: linear-gradient(to bottom right, #ff3cac, #562b7c, #2b86c5); */
+    background-color: #4928db;
+}
+
+.shape-inner {	
+    height: calc(230px + 4vw);
+    width: calc(230px + 4vw);
+    /* background: url(../images/FloresJMC.png) no-repeat center; */
+    background-color: #1a2129;
+    background-size: cover;
+    margin: auto;
+}
+.div-image {	
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: opacity(0.7);
+}
+
+.heptagon {
+    -webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 62%, 75% 100%, 25% 100%, 0% 62%, 10% 20%);
+            clip-path: polygon(50% 0%, 90% 20%, 100% 62%, 75% 100%, 25% 100%, 0% 62%, 10% 20%);
+}
